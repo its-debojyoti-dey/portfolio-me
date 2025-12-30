@@ -57,7 +57,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "#",
+        url: "https://github.com/its-debojyoti-dey",
         icon: Icons.github,
         navbar: true,
       },
@@ -69,7 +69,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "#",
+        url: "https://x.com/_debojyoti_dey",
         icon: Icons.x,
         navbar: true,
       },
@@ -113,31 +113,32 @@ export const DATA = {
       start: "2017",
       end: "2020",
     },
-    {
-      school: "NextLeap",
-      href: "#",
-      degree: "Product Manager Fellowship",
-      logoUrl: "/nextleap.png",
-      start: "Dec 2025",
-      end: "Mar 2026",
-    },
-    {
-      school: "Udemy",
-      href: "#",
-      degree: "FastAPI Certification",
-      logoUrl: "/udemy.png",
-      start: "2025",
-      end: "2025",
-    },
-    {
-      school: "Make",
-      href: "#",
-      degree: "Advanced Certification",
-      logoUrl: "/make.png",
-      start: "2025",
-      end: "2025",
-    },
+
   ],
+  certification: [{
+    school: "NextLeap",
+    href: "#",
+    degree: "Product Manager Fellowship",
+    logoUrl: "/nextleap.png",
+    start: "Dec 2025",
+    end: "Mar 2026",
+  },
+  {
+    school: "Udemy",
+    href: "#",
+    degree: "FastAPI Certification",
+    logoUrl: "/udemy.png",
+    start: "2025",
+    end: "2025",
+  },
+  {
+    school: "Make",
+    href: "#",
+    degree: "Advanced Certification",
+    logoUrl: "/make.png",
+    start: "2025",
+    end: "2025",
+  },],
   projects: [
     {
       title: "BluBuddy.io",
@@ -147,17 +148,24 @@ export const DATA = {
       description:
         "AI-powered conversational platform with a multi-agent backend architecture. Designed backend services for conversation orchestration, lead management, and analytics. Processed 50,000+ conversations and improved client lead conversion rates by 35%. Implemented domain-specific AI agents for real-estate listings aggregation and intelligent responses.",
       technologies: [
-        "AI Agents",
-        "Backend Architecture"
+        "React.js",
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "LangChain",
+        "LangGraph",
+        "AWS",
+        "Docker",
+
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://BluBuddy.io",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://BluBuddy.io",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
       ],
-      image: "",
+      image: "/projects/blubuddy.png",
       video: "",
     },
     {
@@ -168,53 +176,44 @@ export const DATA = {
       description:
         "LLM-driven email productivity system. Built backend pipelines for email ingestion, classification, and priority ranking. Implemented asynchronous processing and intelligent filtering workflows. Reduced email handling time by 40% for 2,000+ active users.",
       technologies: [
-        "LLM",
-        "Email Automation"
+        "Next.js",
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "LangChain", "LangGraph",
+        "AWS",
+        "Docker",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://SmartInbox.ai",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://SmartInbox.ai",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
       ],
-      image: "",
+      image: "/projects/smartinbox.png",
       video: "",
     },
-    {
-      title: "SocialSync",
-      href: "#",
-      dates: "",
-      active: true,
-      description:
-        "Automated content publishing system. Integrated Google Trends, Perplexity, and Make.com. Designed fault-tolerant automation workflows for LinkedIn and X. Enabled consistent content delivery with minimal manual intervention.",
-      technologies: [
-        "Google Trends",
-        "Perplexity",
-        "Make.com"
-      ],
-      links: [],
-      image: "",
-      video: "",
-    },
+
     {
       title: "Caption AI",
-      href: "#",
+      href: "https://play.google.com/store/apps/details?id=com.captionai&hl=en",
       dates: "",
       active: true,
       description:
         "Generative AI backend service for social media captions. Used prompt engineering and LLM APIs. Enabled scalable, automated content creation across multiple platforms.",
       technologies: [
+        "React Native",
         "Generative AI",
         "LLM APIs"
       ],
       links: [],
-      image: "",
+      image: "/projects/captionai.png",
       video: "",
     },
     {
       title: "AskMate AI",
-      href: "#",
+      href: "https://apkpure.com/askmate-ai-exam-study-helper/com.askmate_ai",
       dates: "",
       active: true,
       description:
@@ -222,12 +221,28 @@ export const DATA = {
       technologies: [
         "React Native",
         "Node.js",
-        "LLMs"
+        "LangChain"
       ],
       links: [],
-      image: "",
+      image: "/projects/askmate.png",
       video: "",
     },
+    //  {
+    //   title: "SocialSync",
+    //   href: "#",
+    //   dates: "",
+    //   active: true,
+    //   description:
+    //     "Automated content publishing system. Integrated Google Trends, Perplexity, and Make.com. Designed fault-tolerant automation workflows for LinkedIn and X. Enabled consistent content delivery with minimal manual intervention.",
+    //   technologies: [
+    //     "Google Trends",
+    //     "Perplexity",
+    //     "Make.com"
+    //   ],
+    //   links: [],
+    //   image: "",
+    //   video: "",
+    // },
   ],
   hackathons: [],
 } as const;
