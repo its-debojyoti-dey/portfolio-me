@@ -60,12 +60,22 @@ export function ProjectCard({
             className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
           />
         )}
-        {image && (
+        {image ? (
           <Image
             src={image}
             alt={title}
             width={500}
             height={300}
+            unoptimized={image.startsWith("http")}
+            className="h-40 w-full overflow-hidden object-cover object-top"
+          />
+        ) : (
+          <Image
+            src={`https://placehold.co/600x400/png?text=${encodeURIComponent(title)}`}
+            alt={title}
+            width={500}
+            height={300}
+            unoptimized
             className="h-40 w-full overflow-hidden object-cover object-top"
           />
         )}
