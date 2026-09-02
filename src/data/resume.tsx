@@ -266,7 +266,7 @@ export const DATA = {
     },
     {
       title: "BookStall Inventory Management",
-      href: "https://github.com/its-debojyoti-dey/BookStall-Inventory",
+      href: "https://github.com/its-debojyoti-dey/BookStall-Inventory-App",
       dates: "2025 - 2026",
       active: true,
       description:
@@ -283,7 +283,7 @@ export const DATA = {
       links: [
         {
           type: "Source Code",
-          href: "https://github.com/its-debojyoti-dey/BookStall-Inventory",
+          href: "https://github.com/its-debojyoti-dey/BookStall-Inventory-App",
           icon: <Icons.github className="size-3" />,
         },
       ],
