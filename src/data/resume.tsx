@@ -165,12 +165,161 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "GitHub PR Filter Extension",
+      href: "https://github.com/its-debojyoti-dey/github-pr-filter",
+      dates: "2026",
+      active: true,
+      description:
+        "Native-feeling Manifest V3 Chromium extension replacing GitHub's Pull Request search input with interactive filter bars, preset chips ('Needs Review', 'Ready to Merge', 'Exclude Bots'), and structured query popovers.",
+      technologies: [
+        "TypeScript",
+        "Vite",
+        "Chrome Extension API",
+        "GitHub Primer",
+      ],
+      links: [
+        {
+          type: "Source Code",
+          href: "https://github.com/its-debojyoti-dey/github-pr-filter",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://placehold.co/600x400/png?text=GitHub+PR+Filter",
+      video: "",
+    },
+    {
+      title: "ApplyFlow - Job Search Helper",
+      href: "https://github.com/its-debojyoti-dey/applyflow",
+      dates: "2026",
+      active: true,
+      description:
+        "Manifest V3 Chrome Extension designed for LinkedIn and Y Combinator job seekers. Features custom time window filters, automated company blocklists, recruiter profile inspectors, and page DOM filter engine.",
+      technologies: [
+        "React 19",
+        "TypeScript",
+        "Vite",
+        "Chrome Extension API",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Source Code",
+          href: "https://github.com/its-debojyoti-dey/applyflow",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://placehold.co/600x400/png?text=ApplyFlow",
+      video: "",
+    },
+    {
+      title: "StyleSense AI",
+      href: "https://github.com/its-debojyoti-dey/StyleSense-AI",
+      dates: "2026",
+      active: true,
+      description:
+        "AI-powered fashion & outfit recommendation ecosystem featuring a Manifest V3 Chrome Extension and high-concurrency Node.js/Python backend. Integrates multimodal AI vision models for garment recognition, sidepanel UI, and outfit compatibility scoring.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "React 19",
+        "TypeScript",
+        "Google Gemini API",
+        "Clerk Auth",
+        "Razorpay",
+      ],
+      links: [
+        {
+          type: "Source Code",
+          href: "https://github.com/its-debojyoti-dey/StyleSense-AI",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://placehold.co/600x400/png?text=StyleSense+AI",
+      video: "",
+    },
+    {
+      title: "Listener Hub - Multi-Agent Platform",
+      href: "https://github.com/its-debojyoti-dey/Listener-Hub",
+      dates: "2026",
+      active: true,
+      description:
+        "Autonomous multi-agent platform connecting users seeking emotional support with listeners via encrypted audio sessions. Built with Next.js 15, Node.js, Upstash Redis, BullMQ job queues, Agora RTC, and crisis escalation workflows.",
+      technologies: [
+        "Next.js 15",
+        "Node.js",
+        "Express 5",
+        "TypeScript",
+        "Redis",
+        "BullMQ",
+        "Agora RTC",
+        "Docker",
+      ],
+      links: [
+        {
+          type: "Source Code",
+          href: "https://github.com/its-debojyoti-dey/Listener-Hub",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://placehold.co/600x400/png?text=Listener+Hub",
+      video: "",
+    },
+    {
+      title: "BookStall Inventory Management",
+      href: "https://github.com/its-debojyoti-dey/BookStall-Inventory",
+      dates: "2025 - 2026",
+      active: true,
+      description:
+        "Production-grade MERN stack inventory management web application for stationery and book stalls. Features real-time stock alerts, catalog CRUD, JWT role-based access, sales analytics, and OpenRouter AI book categorization.",
+      technologies: [
+        "React 18",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Tailwind CSS",
+        "OpenRouter AI",
+      ],
+      links: [
+        {
+          type: "Source Code",
+          href: "https://github.com/its-debojyoti-dey/BookStall-Inventory",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://placehold.co/600x400/png?text=BookStall+Inventory",
+      video: "",
+    },
+    {
+      title: "NextLeap Extension",
+      href: "https://github.com/its-debojyoti-dey/NextLeap-Extension",
+      dates: "2026",
+      active: true,
+      description:
+        "Manifest V3 browser extension built for NextLeap learners to summarize course modules, extract key concepts, and streamline interactive study workflows.",
+      technologies: [
+        "React 19",
+        "TypeScript",
+        "Vite 7",
+        "Chrome Extension API",
+      ],
+      links: [
+        {
+          type: "Source Code",
+          href: "https://github.com/its-debojyoti-dey/NextLeap-Extension",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://placehold.co/600x400/png?text=NextLeap+Extension",
+      video: "",
+    },
+    {
       title: "OmnisAI Chi",
       href: "#",
       dates: "Jan 2026 - Present",
       active: true,
       description:
-        "Autonomous Multi-Agent Legal Platform. Built an end-to-end AI agent platform for personal injury law firms — Python (FastAPI) backend, Next.js frontend, with a Node.js SendKit MCP server for e-signatures and document processing. Orchestrated 18 specialized agents using Ultravox, LiveKit, and custom ADK workflows in a trigger-driven domino pipeline integrated with CasePro CRM. Fully automated cases from initial voice intake to settlement disbursement, cutting manual case handling time by over 50%.",
+        "Autonomous Multi-Agent Legal Platform. Built an end-to-end AI agent platform for personal injury law firms — Python (FastAPI) backend, Next.js frontend, with a Node.js SendKit MCP server for e-signatures and document processing. Orchestrated 18 specialized agents using Ultravox, LiveKit, and custom ADK workflows in a trigger-driven domino pipeline integrated with CasePro CRM.",
       technologies: [
         "Python",
         "FastAPI",
@@ -191,7 +340,7 @@ export const DATA = {
       dates: "July 2024 - August 2025",
       active: true,
       description:
-        "Real-time Conversational AI Platform. Built a real time AI conversation platform — Python WebSocket backend, React on the frontend, with LangGraph and LangChain handling the multi agent orchestration underneath. Conversation retrieval stays fast even at volume thanks to MongoDB Vector Search. Billing runs through Paddle for global subscriptions, all hosted on AWS. Processed 50,000+ live interactions and bumped conversion 35%.",
+        "Real-time Conversational AI Platform. Built a real time AI conversation platform — Python WebSocket backend, React on the frontend, with LangGraph and LangChain handling the multi agent orchestration underneath. Processed 50,000+ live interactions.",
       technologies: [
         "React.js",
         "Python",
@@ -200,79 +349,9 @@ export const DATA = {
         "LangChain",
         "LangGraph",
         "AWS",
-        "Paddle",
       ],
       links: [],
       image: "/projects/blubuddy.png",
-      video: "",
-    },
-    {
-      title: "SmartInbox.ai",
-      href: "https://SmartInbox.ai",
-      dates: "April 2024 - March 2025",
-      active: true,
-      description:
-        "AI Email Agent & Prioritization Engine. Built an AI email tool that routes and prioritizes your inbox — Python backend, Next.js on top. Pulls live data through the Gmail API, then LlamaIndex and Pinecone handle the semantic search to flag what's actually urgent. Stripe runs the billing. Cut daily email time by 40% for 2,000+ active users.",
-      technologies: [
-        "Next.js",
-        "Python",
-        "LlamaIndex",
-        "Pinecone",
-        "Gmail API",
-        "Stripe",
-      ],
-      links: [],
-      image: "/projects/smartinbox.png",
-      video: "",
-    },
-    {
-      title: "AskMate AI",
-      href: "https://apkpure.com/askmate-ai-exam-study-helper/com.askmate_ai",
-      dates: "",
-      active: true,
-      description:
-        "Local RAG Study Assistant. Developed a cross-platform mobile app using React Native and FastAPI. Built custom local document ingestion, processing, and vector indexing (ChromaDB) to provide context-aware answering and interactive flashcard generation.",
-      technologies: [
-        "React Native",
-        "FastAPI",
-        "Python",
-        "ChromaDB",
-        "RAG",
-      ],
-      links: [],
-      image: "/projects/askmate.png",
-      video: "",
-    },
-    {
-      title: "Mail Sorter",
-      href: "#",
-      dates: "",
-      active: true,
-      description:
-        "Hermes Agent Orchestration. Used Hermes Agent to build a personal inbox filter that classifies incoming mail and sorts it into categories automatically.",
-      technologies: [
-        "Python",
-        "Hermes Agent",
-        "LLM Integration",
-      ],
-      links: [],
-      image: "https://placehold.co/600x400/png?text=Mail+Sorter",
-      video: "",
-    },
-    {
-      title: "Caption AI",
-      href: "https://play.google.com/store/apps/details?id=com.captionai&hl=en",
-      dates: "",
-      active: true,
-      description:
-        "Generative AI backend service for social media captions. Used prompt engineering and LLM APIs. Enabled scalable, automated content creation across multiple platforms.",
-      technologies: [
-        "React Native",
-        "Generative AI",
-        "LLM APIs",
-      ],
-      links: [],
-      image: "/projects/captionai.png",
       video: "",
     },
   ],
